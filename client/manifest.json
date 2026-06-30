@@ -1,0 +1,16 @@
+{
+  "name": "John Doe — Full-Stack Developer",
+  "short_name": "DevPortfolio",
+  "description": "Full-stack developer portfolio showcasing projects and skills.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e94560",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
