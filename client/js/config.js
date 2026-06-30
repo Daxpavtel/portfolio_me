@@ -7,9 +7,5 @@ var API_BASE_URL = (function () {
   if (isLocal) {
     return 'http://localhost:5000/api/v1';
   }
-  return 'https://your-deployed-api.com/api/v1';
+  return 'https://portfolio-me-z294.onrender.com/api/v1';
 })();
-
-if (API_BASE_URL.indexOf('your-deployed-api') > -1) {
-  console.warn('DevPortfolio: API_BASE_URL is set to a placeholder. Update client/js/config.js or set window.API_BASE_URL.');
-}
